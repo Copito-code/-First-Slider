@@ -1,0 +1,43 @@
+
+
+.slider_father{
+
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+
+    border: 5px solid red;
+
+    justify-content: center;
+    
+    align-items: center;
+    
+
+}
+
+.slider_content{
+
+    border: 2px solid green;
+
+    overflow: hidden;
+    width: 100vw;
+    height: 400px;
+}
+
+.slider_inner{
+    
+    border: 1px solid blue;
+    justify-self: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+
+}
+
+
+img{
+
+    width: 100%;
+    filter: contrast(1.3);
+   
+}
